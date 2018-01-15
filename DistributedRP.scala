@@ -12,7 +12,7 @@ import org.apache.spark.rdd.RDD
 import scala.util.Random
 
 
-object RP {
+object DistributedRP {
   def main(args: Array[String]): Unit = {
     val conf = new SparkConf().setAppName("RP")
     val sc = new SparkContext(conf)
